@@ -1,0 +1,26 @@
+/* Estilos personalizados */
+
+body {
+  scroll-behavior: smooth;
+}
+
+section h2 {
+  font-weight: 700;
+}
+
+.badge {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+/* Mejora visual del formulario */
+form {
+  background-color: #fff;
+}

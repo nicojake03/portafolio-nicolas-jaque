@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio Web - Nicolás Jaque Araya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 1.5em 0;
+    }
+
+    nav {
+      background-color: #0056b3;
+      padding: 0.5em 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+    }
+
+    section {
+      margin-bottom: 2em;
+    }
+
+    h2 {
+      color: #0056b3;
+      border-bottom: 2px solid #0056b3;
+      padding-bottom: 0.3em;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 1.5em;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+    }
+
+    input, textarea, button {
+      margin-bottom: 1em;
+      padding: 0.7em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Mi Portafolio Web</h1>
+    <p>Bienvenido/a a mi carta de presentación profesional</p>
+  </header>
+
+  <nav>
+    <a href="#sobre-mi">Sobre Mí</a>
+    <a href="#proyectos">Mis Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi">
+      <h2>Sobre Mí</h2>
+      <p>Hola, soy <strong>Nicolás Jaque Araya</strong>, Técnico Superior en Informática y estudiante de desarrollo web (JavaScript). Me apasiona crear sitios modernos, funcionales y atractivos utilizando HTML, CSS y JavaScript.</p>
+      <p>Algunas de mis habilidades son:</p>
+      <ul>
+        <li>Desarrollo con HTML5, CSS3 y JavaScript</li>
+        <li>Diseño responsivo con Bootstrap</li>
+        <li>Control de versiones con Git y GitHub</li>
+        <li>Trabajo en equipo y comunicación efectiva</li>
+      </ul>
+      <p>Visita mi perfil de LinkedIn:  
+        <a href="https://www.linkedin.com/in/nico-jake" target="_blank">linkedin.com/in/nico-jake</a>
+      </p>
+    </section>
+
+    <!-- Sección Mis Proyectos -->
+    <section id="proyectos">
+      <h2>Mis Proyectos</h2>
+      <p>A continuación, algunos proyectos que he realizado:</p>
+      <ul>
+        <li><strong>Portafolio Web:</strong> página personal desarrollada con HTML y CSS.</li>
+        <li><strong>App To-Do:</strong> aplicación de lista de tareas con JavaScript.</li>
+        <li><strong>Landing Page:</strong> sitio promocional para una marca local.</li>
+      </ul>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Si deseas comunicarte conmigo, completa el siguiente formulario:</p>
+      <form action="#" method="post">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+        <textarea name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nicolás Jaque Araya - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
